@@ -52,6 +52,11 @@ st.markdown("""
         background-color: #FF7575;
         color: white;
     }
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    [data-testid="stStatusWidget"] {visibility: hidden;}
+    .stAppDeployDropdown {display: none !important;}
     </style>
 """, unsafe_allow_html=True)
 
