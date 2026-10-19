@@ -7,7 +7,7 @@ st.set_page_config(page_title= "Registro de Cumpleaños FG", layout= "centered")
 IMAGEN_PORTADA = "logo.png"
 col_centro, col_der = st.columns([2, 1])
 with col_centro:
-    st.image(IMAGEN_PORTADA, use_container_width=True)
+    st.image(IMAGEN_PORTADA, use_container_width=300)
 
 st.title("¡Registra tu cumpleaños!")
 st.write("Pon tu nombre y fecha para poder celebrarte junto con tu equipo de trabajo")
