@@ -32,6 +32,11 @@ def guardar_datos(nombre, dia, mes):
 
 st.markdown("""
     <style>
+    h1 
+    {
+        font-size: 24px !important;
+        white-space: nowrap;
+    }
     div.stButton>button:first-child, div.stFormSubmitButton>button
     {
         background-color: #FF4B4B;
