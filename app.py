@@ -52,20 +52,6 @@ st.markdown("""
         background-color: #FF7575;
         color: white;
     }
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    div[data-testid="stStatusWidget"],
-    .stAppDeployDropdown,
-    div[class*="stAppDeployDropdown"],
-    footer + div,
-    iframe + div,
-    div[style*="position: fixed"][style*="bottom"] {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-    }
 """, unsafe_allow_html=True)
 
 with st.form("formulario_cumple", clear_on_submit=True):
